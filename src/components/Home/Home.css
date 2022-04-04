@@ -1,0 +1,23 @@
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+.img-section img{
+    width: 600px;
+}
+.text-section{
+    width: 600px;
+}
+
+.text-orange{
+    color: rgb(241, 115, 25);
+    font-size: 55px;
+    margin: 0px;
+}
+.text-purple{
+    color: blueviolet;
+    font-size: 55px;
+}
