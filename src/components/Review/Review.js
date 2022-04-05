@@ -1,5 +1,6 @@
 import React from 'react';
 import './Review.css';
+import { Rating } from "react-simple-star-rating";
 
 const Review = (props) => {
     const {name,img,rating,review}= props.customerReview;
@@ -17,7 +18,14 @@ const Review = (props) => {
               <h6>
                 <strong>-{name}</strong>
               </h6>
-              <h6>Rating: {rating}</h6>
+              <Rating
+                initialValue={rating}
+                readonly={true}
+                size={22}
+                fillColor="rgb(14, 211, 155)"
+                transition={true}
+                allowHover={true}
+              />
             </div>
           </div>
         </div>

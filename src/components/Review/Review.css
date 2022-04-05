@@ -1,7 +1,7 @@
 .review-card{
-    height: 150px;
+    height: 180px;
     width: 400px;
-    border: 1px solid rgb(87, 26, 26);
+    border: 3px solid rgb(18, 6, 154);
     display: flex;
     border-radius: 6px;
 }
