@@ -13,11 +13,57 @@
 }
 
 .text-orange{
-    color: rgb(241, 115, 25);
+    color: rgb(203, 13, 102);
     font-size: 55px;
     margin: 0px;
 }
 .text-purple{
     color: blueviolet;
     font-size: 55px;
+}
+.reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+}
+@media only screen and (max-width:520px) {
+    .home-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .reviews {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        flex-direction: column;
+    }
+    .img-section img {
+        width: 300px;
+    }
+    
+    .text-section {
+        width: auto;
+        
+    }
+    
+    .text-orange {
+        color: rgb(203, 13, 102);
+        font-size: 35px;
+        margin: 0px;
+    }
+    
+    .text-purple {
+        color: blueviolet;
+        font-size: 35px;
+    }
+
+
 }

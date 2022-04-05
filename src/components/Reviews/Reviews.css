@@ -1,4 +1,12 @@
 .review-card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin: 40px;
+}
+@media only screen and (max-width:520px) {
+    .review-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5px;
+    }
 }

@@ -7,7 +7,6 @@ const Reviews = () => {
     const [reviews,setReviews]=useReviews();
     return (
       <div>
-        <h2>Welcome from Review Component</h2>
         <div className="review-card-container">
           {reviews.map((customerReview) => (
             <Review

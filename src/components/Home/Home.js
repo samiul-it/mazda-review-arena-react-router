@@ -2,10 +2,14 @@ import React from 'react';
 import './Home.css'
 import carImg from  '../../resources/images/home-car.png'
 import { Button } from "react-bootstrap";
+import useReviews from '../../hooks/useReviews';
+import Review from './../Review/Review';
+import { Link } from 'react-router-dom';
 
 
 
 const Home = () => {
+    const [reviews,setReviews]=useReviews();
     return (
       <div>
         <div className="home-container">
@@ -26,7 +30,7 @@ const Home = () => {
               Mazda CX-5 users can have 6 free services and 3 services @50% off
               at Mazda center.Register below to avail this offer.
             </p>
-            <Button variant="outline-info">Register Now</Button>
+            <Button variant="info">Register Now</Button>
           </div>
           <div className="img-section">
             <img src={carImg} alt="car-overview" />
@@ -34,7 +38,18 @@ const Home = () => {
         </div>
         <div className="reviews-container">
           <h2>Customer Reviews (3)</h2>
-          
+          <div className="reviews">
+            {reviews.slice(0, 3).map((customerReview) => (
+              <Review
+                key={customerReview.id}
+                customerReview={customerReview}
+              ></Review>
+            ))}
+          </div>
+
+          <Link to="/reviews">
+            <Button variant="info"> See All Reviews </Button>
+          </Link>
         </div>
       </div>
     );
