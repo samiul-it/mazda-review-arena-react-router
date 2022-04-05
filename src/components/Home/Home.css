@@ -18,7 +18,7 @@
     margin: 0px;
 }
 .text-purple{
-    color: blueviolet;
+    color: rgb(45 134 188);
     font-size: 55px;
 }
 .reviews{
@@ -28,6 +28,7 @@
     flex-wrap: nowrap;
     align-content: stretch;
 }
+
 @media only screen and (max-width:520px) {
     .home-container{
         display: flex;
@@ -61,7 +62,7 @@
     }
     
     .text-purple {
-        color: blueviolet;
+        color: rgb(45 134 188);
         font-size: 35px;
     }
 

@@ -8,6 +8,7 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
+  Label,
 } from "recharts";
 import {AreaChart,Area} from "recharts";
 import {BarChart,Bar,Legend} from "recharts";
@@ -59,17 +60,17 @@ const Dashboard = () => {
         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="month" />
-        <YAxis />
+        <XAxis dataKey="month"></XAxis>
+        <YAxis></YAxis>
         <Tooltip />
+
         <Legend />
         <Bar dataKey="investment" fill="#aaa823" />
         <Bar dataKey="revenue" fill="#06ac96" />
       </BarChart>
     );
-
     const renderPieChart = (
-      <PieChart width={400} height={400}>
+      <PieChart width={400} height={300}>
         <Pie
           data={data}
           dataKey="revenue"
@@ -95,15 +96,26 @@ const Dashboard = () => {
 
 
     return (
-      <div>
-        <h5>Welcome to Dashboard</h5>
-        {/* {data.length} */}
+      <div className="dashboard-container">
+        <h3>Our Statistics(4)</h3>
         <div className="chart-container">
+          <div className="line-chart">
+            <h3>Investment vs Month</h3>
             {renderLineChart}
+          </div>
+          <div className="area-chart">
+            <h3>Investment vs Sell</h3>
             {renderAreaChart}
+          </div>
+          <div className="bar-chart">
+            <h3>Investment vs Revenue</h3>
             {renderBarchart}
-            {renderPieChart}
+          </div>
 
+          <div className="pie-chart">
+              <h3>Sell vs Revenue</h3>
+              {renderPieChart}
+         </div>
         </div>
       </div>
     );
