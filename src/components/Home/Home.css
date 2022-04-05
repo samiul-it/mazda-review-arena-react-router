@@ -28,7 +28,9 @@
     flex-wrap: nowrap;
     align-content: stretch;
 }
-
+.reviews-container{
+    margin-bottom: 50px;
+}
 @media only screen and (max-width:520px) {
     .home-container{
         display: flex;

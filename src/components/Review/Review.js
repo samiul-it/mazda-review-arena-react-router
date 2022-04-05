@@ -22,7 +22,7 @@ const Review = (props) => {
                 initialValue={rating}
                 readonly={true}
                 size={22}
-                fillColor="rgb(14, 211, 155)"
+                fillColor="rgb(45 134 188)"
                 transition={true}
                 allowHover={true}
               />

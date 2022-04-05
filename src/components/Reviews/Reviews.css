@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 40px;
+    justify-items: center;
 }
 @media only screen and (max-width:520px) {
     .review-card-container {

@@ -15,8 +15,8 @@ const Home = () => {
         <div className="home-container">
           <div className="text-section">
             <h1>
-              <span className="text-purple"> Stunning</span>
-              <span className="text-orange"> Performance </span>
+              <span className="text-purple"> Mazda</span>
+              <span className="text-orange"> CX-5 </span>
             </h1>
             <p>
               With this impressive look,Mazda CX-5 will provide you stunning
@@ -25,7 +25,7 @@ const Home = () => {
               will provide you extra smooth driving in offroading
               roads.Impressive Desing will make the diffeence.
             </p>
-            <h2 className="text-orange">6 Free Services</h2>
+            <h2 className="text-orange">Stunning Performance</h2>
             <p>
               Mazda CX-5 users can have 6 free services and 3 services @50% off
               at Mazda center.Register below to avail this offer.
