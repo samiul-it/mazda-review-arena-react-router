@@ -1,0 +1,16 @@
+.review-card{
+    height: 150px;
+    width: 400px;
+    border: 1px solid rgb(87, 26, 26);
+    display: flex;
+    border-radius: 6px;
+}
+.review-card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.review-container{
+    margin: 5px;
+    padding: 5px;
+}

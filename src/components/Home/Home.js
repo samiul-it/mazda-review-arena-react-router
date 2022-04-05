@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home-container">
           <div className="text-section">
             <h1>
-              <span className="text-purple"> Stnning</span>
+              <span className="text-purple"> Stunning</span>
               <span className="text-orange"> Performance </span>
             </h1>
             <p>
@@ -31,6 +31,10 @@ const Home = () => {
           <div className="img-section">
             <img src={carImg} alt="car-overview" />
           </div>
+        </div>
+        <div className="reviews-container">
+          <h2>Customer Reviews (3)</h2>
+          
         </div>
       </div>
     );
