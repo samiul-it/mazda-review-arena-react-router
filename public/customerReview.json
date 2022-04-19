@@ -41,5 +41,48 @@
         "img": "https://p0.pikist.com/photos/534/300/black-hijab-head-cover-hair-scarf-woman-long-hair-model-overview.jpg",
         "review":"Stunning performance in speeding,I contineously drove at 200km/h speed,also this is very fuel effective.",
         "rating": 5
+      },
+      {
+        "id": 7,
+        "name": "Samiul Islam",
+        "img": "https://unavatar.now.sh/github/1stevengrant",
+        "review": "This car is amazing,I really loved driving this car.Very Comfortable in driving",
+        "rating": 4
+      },
+      {
+        "id": 8,
+        "name": "Albert Joe",
+        "img": "https://eshendetesia.com/images/doctors-profile/0653165ee5510c8df09e103826597d27.jpg",
+        "review": "I really amazed with this styled design,very powerful in offraoding areas,also provides a sporty look",
+        "rating": 4.5
+      },
+      {
+        "id": 9,
+        "name": "Jesmine Jahan",
+        "img": "https://s3.envato.com/files/338574216/2655.jpg",
+        "review": "Super Fuel economic car,I drived more than 400Km in a single day,and It consumed only 25km/l fuel,Like their innovation.",
+        "rating": 5
+      },
+      {
+        "id": 10,
+        "name": "HM Wilson",
+        "img": "https://t4.ftcdn.net/jpg/02/19/63/31/360_F_219633151_BW6TD8D1EA9OqZu4JgdmeJGg4JBaiAHj.jpg",
+        "review": "First of all i would like to thank my friend who recommended me this unit,this is very stylish and a budget friendly car."
+        ,"rating": 4
+
+      },
+      {
+        "id": 11,
+        "name": "Bennet McClen",
+        "img": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/people19.png",
+        "review": "Awesome first experience with mazda cx-5,I really loved driving this.Super service.But the price is too high for me,I think they should consider the price.",
+        "rating": 3
+      },
+      {
+        "id": 12,
+        "name": "Afrin Jahan",
+        "img": "https://p0.pikist.com/photos/534/300/black-hijab-head-cover-hair-scarf-woman-long-hair-model-overview.jpg",
+        "review":"Stunning performance in speeding,I contineously drove at 200km/h speed,also this is very fuel effective.",
+        "rating": 5
       }
     ]

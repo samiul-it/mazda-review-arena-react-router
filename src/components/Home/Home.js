@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
         <div className="reviews-container">
-          <h2>Customer Reviews (3)</h2>
+          <h2>Customer Reviews ({reviews.slice(0, 3).length})</h2>
           <div className="reviews">
             {reviews.slice(0, 3).map((customerReview) => (
               <Review

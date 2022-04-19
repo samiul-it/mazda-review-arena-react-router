@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import Error from './components/Error/Error';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="/about" element={<About></About>} />
         <Route path="/*" element={<Error></Error>} />
       </Routes>
+
+      <Footer></Footer>
 
       
     </div>
